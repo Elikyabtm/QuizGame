@@ -7,7 +7,7 @@ type CategorySelectionProps = {
 };
 
 const CategorySelection: React.FC<CategorySelectionProps> = ({ setSelectedCategory, setCurrentScreen }) => {
-  const categories = ['Séries', 'Films', 'Jeux vidéos', 'Dessins Animés', 'TikTok'];
+  const categories = ['Séries', 'Films', 'Jeux Vidéo', 'Dessins Animés', 'TikTok'];
 
   return (
     <motion.div
